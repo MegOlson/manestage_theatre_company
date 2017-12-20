@@ -16,9 +16,10 @@ gem 'paperclip', '~> 5.0.0'
 gem 'rails_admin', '~> 1.2'
 gem 'sqlite3'
 gem 'google-api-client', require: 'google/apis/calendar_v3'
-gem 'omniauth-google-oauth2'
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'lockup'
+gem 'simple_form'
+gem 'mail_form'
 
 group :development, :test do
   gem 'byebug', platform: :mri
