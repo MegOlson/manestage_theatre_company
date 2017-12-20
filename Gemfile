@@ -17,6 +17,7 @@ gem 'rails_admin', '~> 1.2'
 gem 'sqlite3'
 gem 'google-api-client', require: 'google/apis/calendar_v3'
 gem 'omniauth-google-oauth2'
+gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'lockup'
 
 group :development, :test do
