@@ -1,24 +1,42 @@
-# README
+# Manestage Theatre Company
+## Local Non-Profit Organization
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Independent Capstone Project
+### By: Megan Olson
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+Rails web app that to serve as a site for a local non-profit in Sumner, WA. Allows patrons and cast-access with google maps, google calendar, and password protection for cast access.
 
-* System dependencies
+## Known Bugs
 
-* Configuration
+No known bugs
 
-* Database creation
+## Technologies Used
 
-* Database initialization
+* HTML
+* CSS
+* Ruby
+* Rails
+* Google Services
+* Lockup Gem
 
-* How to run the test suite
+## Future Additions
 
-* Services (job queues, cache servers, search engines, etc.)
+* Admin account (Devise)
+* Personalized calendar for cast access
 
-* Deployment instructions
 
-* ...
+## Support and Contact Details
+
+Feel free to contact Megan at meganannetteolson@yahoo.com
+
+## Contributors
+
+<img src="https://avatars.githubusercontent.com/MegOlson?s=100" width="100" alt="megan annette olson" /><br />[<sub>megan annette olson</sub>](https://github.com/MegOlson)<br />[💻](https://github.com/MegOlson/manestage_theatre_company/commits?author=MegOlson) [⚠️](https://github.com/MegOlson/manestage_theatre_company/commits?author=MegOlson)
+
+### License
+
+Copyright (c) 2017 **Megan Olson**
+
+*This software is licensed under the MIT license.*
