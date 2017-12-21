@@ -1,4 +1,7 @@
-<h2>Please enter the password to access the Green Room.</h2>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+
+<h2 id="password-prompt">Please enter the password to access the Green Room.</h2>
 
 <% if @wrong %>
   <div class="hmm">
@@ -8,9 +11,9 @@
 
 <%= form_for :lockup, url: { action: 'unlock' } do |form| %>
   <% unless @wrong == true %>
-    <p><%= form.password_field "codeword", placeholder: "password" %></p>
+    <p><%= form.password_field "codeword", placeholder: "password", class: "form-control" %></p>
   <% else %>
-    <p><%= form.password_field "codeword", value: @codeword, class: 'nope' %></p>
+    <p><%= form.password_field "codeword", value: @codeword, class: 'nope', class: "form-control" %></p>
   <% end %>
 
   <% if params[:return_to].present? %>
@@ -19,5 +22,5 @@
     <%= form.hidden_field "return_to", value: @return_to %>
   <% end %>
 
-  <p><%= button_tag "Go" %></p>
+  <p><%= button_tag "Go", class: "btn btn-info" %></p>
 <% end %>
