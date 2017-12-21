@@ -1,7 +1,4 @@
-<h1>Welcome</h1>
-
-<%= link_to "Green Room", '/greenrooms/greenroom' %>
-
+<center><h1>Manestage Theatre Company</h1></center>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -11,12 +8,12 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="item active">
+    <div class="item ">
       <%= image_tag "Oliver.jpeg", class: 'width-100' %>
     </div>
 
-    <div class="item">
-      <%= image_tag "liberty.jpg", class: 'width-100' %>
+    <div class="item active">
+      <%= image_tag "mermaid.jpg", class: 'width-100' %>
     </div>
   </div>
 
@@ -29,4 +26,8 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+
+<div class="greenroom">
+  <a href="/greenrooms/greenroom"><%= image_tag "gr.png", class: "nav-image" %></a> 
 </div>
