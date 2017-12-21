@@ -1,8 +1,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Open+Sans');
 
 body {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Marcellus', serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .dropdown {
@@ -29,6 +40,19 @@ body {
   width: 100%;
 }
 
+#mission-statement {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#mission-statement h4 {
+  font-size: 25px;
+  font-family: 'Marcellus', serif;
+}
+
 #myCarousel {
   width: 80%;
   margin-left: 10%;
@@ -36,10 +60,16 @@ body {
 
 .nav-image {
   margin-top: 20px;
-  width: 300px;
+  width: 350px;
 }
 
 .pics {
   display: flex;
   justify-content: space-between;
+}
+
+#copyright {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 10px;
 }
