@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root "pages#show", page: "home"
   get "/pages/:page" => "pages#show"
   get "/greenrooms/:page" => "greenrooms#show"
+  resources :rehearsals
 end

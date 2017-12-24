@@ -20,6 +20,7 @@ gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'lockup'
 gem 'simple_form'
 gem 'mail_form'
+gem "simple_calendar", "~> 2.0"
 
 group :development, :test do
   gem 'byebug', platform: :mri

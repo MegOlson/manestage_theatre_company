@@ -9,6 +9,8 @@ Bundler.require(*Rails.groups)
 module ManestageTheatreCompany
   class Application < Rails::Application
     config.action_dispatch.default_headers = { 'X-Frame-Options' => 'ALLOWALL' }
+    config.beginning_of_week = :sunday
+
     ENV["LOCKUP_CODEWORD"] = 'secret'
     # Initialize configuration defaults for originally generated Rails version.
     # config.load_defaults 5.1
