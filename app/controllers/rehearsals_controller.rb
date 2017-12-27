@@ -2,9 +2,6 @@ class RehearsalsController < ApplicationController
 
   def index
     @rehearsals = Rehearsal.all
-  end
-
-  def new
     @rehearsal = Rehearsal.new
   end
 

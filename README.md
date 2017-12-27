@@ -40,13 +40,3 @@ Feel free to contact Megan at meganannetteolson@yahoo.com
 Copyright (c) 2017 **Megan Olson**
 
 *This software is licensed under the MIT license.*
-
-<%= month_calendar events: @rehearsals do |date, rehearsals| %>
-  <%= date %>
-
-  <% rehearsals.each do |rehearsal| %>
-    <div>
-      <%= rehearsal.name %>
-    </div>
-  <% end %>
-<% end %>

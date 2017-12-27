@@ -11,10 +11,18 @@
     <%= f.label :cast_members %>
     <%= f.text_field :cast_members, class: "form-control"%>
   </div>
-  <%= f.submit "Create", class: "btn" %>
+  <%= f.submit "Create", class: "btn-info" %>
 <% end %>
+<br>
 
-
-<%= month_calendar do |date| %>
+<%= month_calendar events: @rehearsals do |date, rehearsals| %>
   <%= date.day %>
+
+  <% rehearsals.each do |rehearsal| %>
+    <div>
+      <%= rehearsal.start_time.split(" ").second %>
+      <%= rehearsal.end_time.split(" ").second %>
+      <%= rehearsal.cast_members %>
+    </div>
+  <% end %>
 <% end %>
